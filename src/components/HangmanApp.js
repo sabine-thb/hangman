@@ -67,7 +67,7 @@ export const HangmanApp = () => {
     return (
       <div>
         <h1>Le jeu du Pendu</h1>     
-        <p className='explication'>Essayes de deviner le mot caché ! Tu as le droit à 6 erreurs.</p>
+        <p className='explication'>Essaye de deviner le mot caché ! Tu as le droit à 6 erreurs.</p>
         {!won && !lost && <button onClick={restartGame} className='button'>Changer de mot</button>}
         <div className='flex'>
           <div>
